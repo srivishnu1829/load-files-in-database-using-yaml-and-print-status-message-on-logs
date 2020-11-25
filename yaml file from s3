@@ -1,0 +1,7 @@
+- source_file_prefix: test_logs/withnew_column.json
+  source_file_columns: ['_id', 'partyId', 'timeCreated', 'timeLastChanged', 'status', 'name', 'newcolumn']
+  target_db_url: 'jdbc:mysql://sdfju/dkjsdi/pod'
+  target_table_name: ibConfdjd
+  target_db_user_name: abcdef
+  target_db_password: 1232434345
+
