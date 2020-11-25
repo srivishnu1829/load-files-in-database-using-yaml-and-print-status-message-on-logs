@@ -97,7 +97,7 @@ try:
     print("output count",dataDf.count())
     rowcount_output=dataDf.count()
 
-#datasink1 = glueContext.write_dynamic_frame.from_jdbc_conf(frame = dropnullfields3, catalog_connection = "CP-PROD-DWH-RDS-AuroraDBMySQL", connection_options = {"dbtable": "ibcontract", "database": "cpdb"}, transformation_ctx = "datasink1")
+#datasink1 = glueContext.write_dynamic_frame.from_jdbc_conf(frame = dropnullfields3, catalog_connection = "CP-RDS-AuroraDBMySQL", connection_options = {"dbtable": "ibcontract", "database": "cpdb"}, transformation_ctx = "datasink1")
 
 
 
