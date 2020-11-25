@@ -30,7 +30,7 @@ try:
     
     glue_df = glueContext.create_dynamic_frame.from_options(
     's3',
-    {"paths": ['s3://cp-prod-dwh-assets/sftp_json/mndb/crmP.json']},
+    {"paths": ['s3://cp-prod/crmP.json']},
     "json")
     
     print( "input row count is: ", glue_df.count())
